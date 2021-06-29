@@ -1,3 +1,6 @@
+# Thamil MP3 songs manager will reorganize the mp3 tag information by removing the know
+# prefix & suffix and also will rename the actual file names and reorganize your mp3 library
+
 import os
 import mp3_tagger
 import re
@@ -15,8 +18,8 @@ def filenamechanger(song_path, songtitle, album_name, songtrackno):
     print(new_filepath)
     if not os.path.exists(new_filepath):
         os.rename(song_path, new_filepath)
-    #if os.path.exists(new_filepath):
-       #print(new_filename, ' exists already.')
+    if os.path.exists(new_filepath):
+       print(new_filename, ' exists already.')
 
 
 #  song_info = [song_path, song_album, album_composer, song_year, song_title, song_artist, song_track_no, song_genre ]
@@ -98,18 +101,14 @@ def suffixremover(song_info, suffix):
     time.sleep(1)
     filenamechanger(song_info[0], new_song_title, new_album_name, song_info[6])
 
-
-
 def songinfoupdater(song_path):
-
         mp3 = MP3File(song_path)
-
         # Remove ID3 Tag V1 & V2 from Song Album
         tag_album = mp3.album
         #print(tag_album)
         tag_album_2 = str(tag_album).split('[ID3TagV2(album:')
         song_album, v1album = str(tag_album_2[1]).split('), ID3TagV1(album:')
-        #print(song_album)
+        print(song_album)
 
         # Remove ID3 Tag V1 & V2 from Song Artist
         tag_artist = str(mp3.artist)#.encode('utf-8')
@@ -120,17 +119,18 @@ def songinfoupdater(song_path):
         #print(song_artist)
 
         album_composer = mp3.composer
-        #print(album_composer)
+        print(album_composer)
 
         # Remove ID3 Tag V1 & V2 from Song Title
         tag_song = mp3.song
         tag_song_2 = str(tag_song).split('[ID3TagV2(song:')
         song_title, title = str(tag_song_2[1]).split('), ID3TagV1(song:')
-        #print(song_title)
+        print(song_title)
 
         # Remove ID3 Tag V1 & V2 from Song Track
         tag_track = mp3.track
-        # print(tag_track)
+
+        print(tag_track)
         if (tag_track == 32):
             song_track_no = str(1)
         if tag_track is None:
@@ -164,8 +164,8 @@ def songinfoupdater(song_path):
 
         song_info = [song_path, song_album.split('\0', 1)[0], album_composer.split('\0', 1)[0], song_year.split('\0', 1)[0], song_title.split('\0', 1)[0], song_artist.split('\0', 1)[0], song_track_no.split('\x00', 1)[0], song_genre.split('\0', 1)[0] ]
 
-        #print(song_info)
-        #input('Enter to continue')
+        print(song_info)
+        input('Enter to continue')
 
         if "[SunStarMusiQ.Com] " in song_title:
             prefixremover(song_info, "[SunStarMusiQ.Com] ")
@@ -244,12 +244,16 @@ def songinfoupdater(song_path):
             suffixremover(song_info, " [Masstamilan.in]")
 
         if "::Singamda.Com:: " in song_title:
+            print('got')
             suffixremover(song_info, "::Singamda.Com:: ")
+
+        if "::Singamda.Com::" in song_title:
+                print('got')
+                suffixremover(song_info, "::Singamda.Com::")
 
         else:
             #continue
             filenamechanger(song_path, song_title,song_album, song_track_no)
-
 
 def convert_bytes(num):
 
@@ -260,12 +264,12 @@ def convert_bytes(num):
 
 
 def folderregressionchecker(songsdirectory):
-    #print(songs_directory)
+    print(songs_directory)
     for subdir, dirs, mp3_files in os.walk(songsdirectory):
         #print(subdir)
         for mp3file in mp3_files:
            if mp3file.endswith('.mp3'):
-               #print(mp3file)
+               print(mp3file)
                song_path = subdir + os.sep + mp3file
                songs_folder = subdir
                #print(songs_folder)
@@ -285,13 +289,8 @@ def folderregressionchecker(songsdirectory):
            else:
                 continue
 
-#song_path = r"D:\Arun Madhu\Songs\2018\2018 Songs\Alangaara Pandhal--Singamda.Com--.mp3"
-#songinfoupdater(song_path)
-
-#songs_directory = input('Please enter the Songs Folder :\n')
 def songsfolderorganizer(song_path, mp3file):
     try:
-
         mp3 = MP3File(song_path)
         # Remove ID3 Tag V1 & V2 from Song Album
         tag_album = mp3.album
@@ -336,34 +335,16 @@ def songsfolderorganizer(song_path, mp3file):
         pass
 
 
-def folderchecker(songsdirectory):
-    #for subdir, dirs, mp3_files in os.walk(songsdirectory):
-    for subdir, dirs, mp3_files in os.walk(songsdirectory):
-        #print(mp3_files)
-        for mp3file in mp3_files:
-           if mp3file.endswith('.mp3') or mp3file.endswith('.Mp3'):
-               #print(mp3file)
-               song_path = subdir + os.sep + mp3file
-               #songs_folder = subdir
-               #print(songs_folder)
-               #print(song_path)
-               songsfolderorganizer(song_path, mp3file)
-
-               continue
-           else:
-                continue
-
-
 def mp3filenamechanger(songsfolder):
     for subdir, dirs, mp3_files in os.walk(songsfolder):
-        print(mp3_files)
+        print("mp3 File Name:",mp3_files)
         for mp3file in mp3_files:
             if mp3file.endswith('.mp3') or mp3file.endswith('.Mp3'):
                 # print(mp3file)
                 song_path = songsfolder + os.sep + mp3file
                 # songs_folder = subdir
                 # print(songs_folder)
-                print(song_path)
+                print("Song Path:",song_path)
                 song = MP3File(song_path)
 
                 # Remove ID3 Tag V1 & V2 from Song Title
@@ -392,10 +373,10 @@ def mp3filenamechanger(songsfolder):
 
                 filenamechanger(song_path,song_title.split('\0', 1)[0],"summa",song_track_no.split('\0', 1)[0])
                 continue
-            #songsfolderorganizer(song_path, mp3file)
+            songsfolderorganizer(song_path, mp3file)
 
 
-songs_directory = r"D:\Arun Madhu\Songs\2019\Darbar"
+songs_directory = r"E:\Maanaadu"
 #For Song Info Updater
 
 #mp3filenamechanger(songs_directory)
@@ -405,4 +386,4 @@ print('--------------------------------------')
 #time.sleep(10)
 #print('--------------------------------------')
 #input('So, have you finished deleting the folders. Then please enter to continue')
-folderchecker(songs_directory)
+#folderchecker(songs_directory)
