@@ -1,0 +1,136 @@
+
+
+
+
+[
+{
+    key: {root},
+    values: {
+        root: [
+            {
+                key: production,
+                values: {
+                    production: [...]
+                }
+            },
+            {
+                key: data,
+                values: {
+                    data: [
+                        {
+                            key: some_data,
+                            values: {
+                                some_data: []
+                            }
+                        },
+                        {
+                            key: domain,
+                            values: {
+                                assets: [
+                                    {
+                                        key: type,
+                                        values: {
+                                            asset: [
+                                                {
+                                                    key: ASSET_TYPE
+                                                    values: {
+                                                        char: [
+                                                            {
+                                                                key: something
+                                                                values: {
+                                                                    something: [
+                                                                        {
+                                                                            key: ASSET
+                                                                            values: {
+                                                                                ass1: [
+                                                                                    {
+                                                                                        key: TASK
+                                                                                        values: {
+                                                                                            model: [],
+                                                                                            rig: [],
+                                                                                            lookdev: []
+                                                                                        }
+                                                                                    }
+                                                                                ],
+                                                                                ass2: [
+                                                                                    {
+                                                                                        key: TASK
+                                                                                        values: {
+                                                                                            model: [],
+                                                                                            rig: [],
+                                                                                            lookdev: []
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                key: something_else
+                                                                values: {
+                                                                    something_else: [
+{
+                            key: ASSET
+                            values: {
+                                ass1: {},
+                                ass2: {}
+                            }
+    }
+}
+                        },
+                        prop: {
+                            key: ASSET
+                            values: {
+                                chair: {
+                                    key: TASK
+                                    values: {
+                                        model: {},
+                                        rig: {},
+                                        lookdev: {}
+                                    }
+                                }
+                            }
+                        },
+                        env: {
+                            key: ASSET
+                            values: {}
+                        }
+                    }
+                },
+                group: {
+                    key: ASSET_TYPE
+                    values:
+                        assembly:
+                            key: ASSET
+                            values: {}
+                        scene:
+                            key: ASSET
+                            values: {}
+                }
+            }
+        },
+        shots: {
+            ...
+                layout
+                comp
+        }
+    }
+}
+
+
+
+
+
+
+                    ]
+                }
+            }
+        ]
+    }
+
+
+
+}
+]

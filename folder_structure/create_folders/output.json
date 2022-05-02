@@ -1,0 +1,199 @@
+{
+    "{ROOT}": {
+        "type": null,
+        "children": {
+            "production": {
+                "type": null,
+                "children": {
+                    "planning": {
+                        "type": null,
+                        "children": {}
+                    },
+                    "milestones": {
+                        "type": null,
+                        "children": {}
+                    }
+                }
+            },
+            "data": {
+                "type": null,
+                "children": {
+                    "some_data": {
+                        "type": null,
+                        "children": {}
+                    },
+                    "assets": {
+                        "type": null,
+                        "children": {
+                            "asset": {
+                                "type": null,
+                                "children": {
+                                    "prop": {
+                                        "type": null,
+                                        "children": {
+                                            "something": {
+                                                "type": null,
+                                                "children": {
+                                                    "asset2": {
+                                                        "type": "<ASSET>",
+                                                        "children": {}
+                                                    }
+                                                }
+                                            },
+                                            "something_else": {
+                                                "type": null,
+                                                "children": {
+                                                    "Prop": {
+                                                        "type": null,
+                                                        "children": {}
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "env": {
+                                        "type": null,
+                                        "children": {
+                                            "something": {
+                                                "type": null,
+                                                "children": {}
+                                            },
+                                            "something_else": {
+                                                "type": null,
+                                                "children": {}
+                                            }
+                                        }
+                                    },
+                                    "char": {
+                                        "type": null,
+                                        "children": {
+                                            "something": {
+                                                "type": null,
+                                                "children": {
+                                                    "fafa": {
+                                                        "type": "<ASSET>",
+                                                        "children": {}
+                                                    },
+                                                    "toto": {
+                                                        "type": "<ASSET>",
+                                                        "children": {}
+                                                    }
+                                                }
+                                            },
+                                            "something_else": {
+                                                "type": null,
+                                                "children": {
+                                                    "Character": {
+                                                        "type": null,
+                                                        "children": {}
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "group": {
+                                "type": null,
+                                "children": {
+                                    "scene": {
+                                        "type": null,
+                                        "children": {
+                                            "something": {
+                                                "type": null,
+                                                "children": {}
+                                            },
+                                            "something_else": {
+                                                "type": null,
+                                                "children": {}
+                                            }
+                                        }
+                                    },
+                                    "assembly": {
+                                        "type": null,
+                                        "children": {
+                                            "something": {
+                                                "type": null,
+                                                "children": {}
+                                            },
+                                            "something_else": {
+                                                "type": null,
+                                                "children": {}
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "random": {
+                                "type": null,
+                                "children": {
+                                    "other_random": {
+                                        "type": null,
+                                        "children": {
+                                            "asset2": {
+                                                "type": null,
+                                                "children": {}
+                                            },
+                                            "fafa": {
+                                                "type": null,
+                                                "children": {}
+                                            },
+                                            "toto": {
+                                                "type": null,
+                                                "children": {}
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "shots": {
+                        "type": null,
+                        "children": {
+                            "S001": {
+                                "type": null,
+                                "children": {
+                                    "S001_01": {
+                                        "type": "<SHOT>",
+                                        "children": {}
+                                    },
+                                    "S001_02": {
+                                        "type": "<SHOT>",
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "S002": {
+                                "type": null,
+                                "children": {
+                                    "S002_01": {
+                                        "type": "<SHOT>",
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "deliveries": {
+                "type": null,
+                "children": {
+                    "fromClient": {
+                        "type": null,
+                        "children": {}
+                    },
+                    "toClient": {
+                        "type": null,
+                        "children": {}
+                    }
+                }
+            },
+            "daily": {
+                "type": null,
+                "children": {}
+            }
+        }
+    }
+}

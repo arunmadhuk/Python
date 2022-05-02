@@ -1,0 +1,273 @@
+
+# So everything needs to be dynamic and recursive.
+# => I would do something like (not the fastest/best way, so it can be done better):
+# 1. Look for the first cell with [] (starting from root)
+#    parent = cell.value
+#    get its dictionary
+#    in the dictionary, look for cells with <> -> get the tag
+#    if the table for that tag contains a column with name == parent
+#        get the list of values for that column
+#        for each value
+#            copy the dictionary (of "parent") and add it with key == value
+#        done (go back to '1.' and repeat the process with the next cell with [], until all done)
+#    else
+#        ERROR => Stop process
+#
+# 2. Look for the first cell with <>
+#    tag = cell.value
+#    get the data of the corresponding sheet
+#    for each value in the "name" column
+#        copy the dictionary (of "tag") and add it with key == value
+
+
+
+
+<PROJECT>
+    [domain:assets]
+        [type]
+            <ASSET_TYPE>
+                <ASSET>
+                    <TASK>
+                        <VERSION>
+    [domain:shots]
+        <SEQUENCE>
+            ...
+                <TASK>
+                    <VERSION>
+
+
+[] => attribute/column name
+{} => tag/sheet name
+
+
+
+
+ASSET_TYPE
+
+name        type
+
+char        asset
+prop        asset
+env         asset
+assembly    group
+scene       group
+
+
+ASSET
+
+name    short_type
+        ASSET_TYPE
+ass1    char
+ass2    char
+chair   prop
+
+
+TASK
+
+name    domain
+
+model   assets
+rig     assets
+lookdev assets
+layout  shots
+comp    shots
+
+
+
+------------------
+
+
+<PROJECT>
+    [domain:assets]
+        [type]
+            <ASSET_TYPE>
+                something
+                    <ASSET>
+                        <TASK>
+                            <VERSION>
+                something_else
+                    <ASSET>
+    [domain:shots]
+        <SEQUENCE>
+            ...
+                <TASK>
+                    <VERSION>
+
+
+
+domain: assets shots
+
+type: asset group
+
+ASSET_TYPE: char prop env assembly scene
+
+ASSET: ass1 ass2 chair
+
+TASK: model rig lookdev layout comp
+
+----
+
+STEP 1: Generate values.
+
+
+[
+{
+    key: {root},
+    values: {
+        root: [
+            {
+                key: production,
+                values: {
+                    production: [...]
+                }
+            },
+            {
+                key: data,
+                values: {
+                    data: [
+                        {
+                            key: some_data,
+                            values: {
+                                some_data: []
+                            }
+                        },
+                        *domain
+                    ]
+                }
+            }
+        ]
+    }
+
+
+
+}
+]
+
+
+
+*domain:
+{
+    key: domain
+    values: {
+        assets: {
+            key: type
+            values: {
+                asset: {
+                    key: ASSET_TYPE
+                    values: {
+                        char: {
+key: something
+values: {
+    something: {
+                            key: ASSET
+                            values: {
+                                ass1: {
+                                    key: TASK
+                                    values: {
+                                        model: {},
+                                        rig: {},
+                                        lookdev: {}
+                                    }
+                                },
+                                ass2: {
+                                    key: TASK
+                                    values: {
+                                        model: {},
+                                        rig: {},
+                                        lookdev: {}
+                                    }
+                                }
+                            }
+    }
+}
+key: something_else
+values: {
+    something_else: {
+                            key: ASSET
+                            values: {
+                                ass1: {},
+                                ass2: {}
+                            }
+    }
+}
+                        },
+                        prop: {
+                            key: ASSET
+                            values: {
+                                chair: {
+                                    key: TASK
+                                    values: {
+                                        model: {},
+                                        rig: {},
+                                        lookdev: {}
+                                    }
+                                }
+                            }
+                        },
+                        env: {
+                            key: ASSET
+                            values: {}
+                        }
+                    }
+                },
+                group: {
+                    key: ASSET_TYPE
+                    values:
+                        assembly:
+                            key: ASSET
+                            values: {}
+                        scene:
+                            key: ASSET
+                            values: {}
+                }
+            }
+        },
+        shots: {
+            ...
+                layout
+                comp
+        }
+    }
+}
+]
+
+
+STEP 2 : Replace values in dict.
+
+<PROJECT>
+    assets
+        asset
+            char
+                ass1
+                    model
+                        <VERSION>
+                    rig
+                        <VERSION>
+                    lookdev
+                        <VERSION>
+                ass2
+                    <TASK>
+                        <VERSION>
+            prop
+                <ASSET>
+                    <TASK>
+                        <VERSION>
+            env
+                <ASSET>
+                    <TASK>
+                        <VERSION>
+        group
+            <ASSET_TYPE>
+                <ASSET>
+                    <TASK>
+                        <VERSION>
+    [domain:shots]
+        <SEQUENCE>
+            ...
+                <TASK>
+                    <VERSION>
+
+
+
+
+

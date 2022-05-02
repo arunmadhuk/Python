@@ -1,0 +1,34 @@
+{
+    "Hair": {
+      "categories": ["Test"],
+        "validators": ["CollectUVShells"]
+},
+    "Eye": {
+      "categories": [],
+        "validators": ["CollectUVShells"]
+		},
+    "Costume": {
+      "categories": [],
+        "validators": ["CollectUVShells"]
+    },
+    "Body": {
+      "categories": [],
+        "validators": []
+    },
+    "Slipper": {
+      "categories": [],
+        "validators": ["CollectUVShells"]
+    },
+    "Hat": {
+      "categories": [],
+        "validators": ["CollectUVShells"]
+    },
+	"Tooth": {
+      "categories": [],
+        "validators": ["CollectUVShells"]
+    },
+	"Nail":{
+      "categories": [],
+        "validators": ["CollectUVShells"]
+    }
+}

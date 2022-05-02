@@ -1,0 +1,28 @@
+{
+    "Mesh": ["ValidateMeshFaceMaxFourVertex", "ValidateMeshArnoldAttributes", "ValidateMeshLaminaFaces",
+                     "ValidateMeshNoNegativeScale", "ValidateMeshNonManifold", "ValidateMeshShaderConnections",
+              "ValidateMeshVerticesHaveEdges","ValidateColorSets","ValidateMeshNonZeroEdgeLength"],
+			  
+    "Naming": ["ValidateModelName", "ValidateNamingModel", "ValidateNodeNames", "ValidateShaderNodeNamingModel",
+                       "ValidateShapeDefaultNames", "ValidateTransformNamingSuffix"],
+					   
+    "Nodes": ["ValidateNodeIDs", "ValidateNodeIdsDeformedShape", "ValidateNodeIdsInDatabase",
+                      "ValidateNodeIDsRelated", "ValidateNodeIdsUnique", "ValidateNodeNoGhosting"],
+					  
+    "Transform": ["ValidateTransformReset","ValidateTransformZero"],
+	
+    "Session": ["ValidateNoHistory","ValidateMayaUnits","ValidateVersion"],
+	
+    "UV": ["ValidateUVOverlap", "ValidateMeshHasUVs", "ValidateUVSingleSet", "ValidateUVVertices",
+                   "ValidateUVLimits", "ValidateUVFlipped", "ValidateUVNoBorders", "ValidateUDIMColumn"],
+
+    "BCS": ["ValidateLookNoDefaultShaders", "ValidateMeshArnoldAttributes"],
+
+  	"Test": ["ValidateRigOutSetNodeIds","ValidateShaderName","ValidateNoVRayMesh",
+	"ValidateRigControllersArnoldAttributes","ValidateShapeDefaultNames","ValidateShapeRenderStats",
+	"ValidateSkinclusterDeformerSet","ValidateTransformNamingSuffix","ValidateTransformZero",
+	"ValidateUnrealMeshTriangulated","ValidateUnrealStaticmeshName","ValidateVrayProxyMembers",
+	"ValidateYetiRigInputShapesInInstance"]
+
+
+}

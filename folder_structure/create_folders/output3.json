@@ -1,0 +1,67 @@
+{
+    "{ROOT}[Pype]": {
+        "production[Folder]": {
+            "planning[Folder]": {},
+            "milestones[Folder]": {}
+        },
+        "data[Pype]": {
+            "some_data[Folder]": {},
+            "assets[Pype]": {
+                "asset[Pype]": {
+                    "prop[Pype]": {
+                        "something[Pype]": {
+                            "asset2[#2]": 0
+                        },
+                        "something_else[Folder]": {
+                            "Prop[Folder]": {}
+                        }
+                    },
+                    "env[Folder]": {
+                        "something[Folder]": {},
+                        "something_else[Folder]": {}
+                    },
+                    "char[Pype]": {
+                        "something[Pype]": {
+                            "fafa[#1]": 0,
+                            "toto[#1]": 0
+                        },
+                        "something_else[Folder]": {
+                            "Character[Folder]": {}
+                        }
+                    }
+                },
+                "group[Folder]": {
+                    "scene[Folder]": {
+                        "something[Folder]": {},
+                        "something_else[Folder]": {}
+                    },
+                    "assembly[Folder]": {
+                        "something[Folder]": {},
+                        "something_else[Folder]": {}
+                    }
+                },
+                "random[Folder]": {
+                    "other_random[Folder]": {
+                        "asset2[Folder]": {},
+                        "fafa[Folder]": {},
+                        "toto[Folder]": {}
+                    }
+                }
+            },
+            "shots[Pype]": {
+                "S001[Pype]": {
+                    "S001_01[#6]": 0,
+                    "S001_02[#7]": 0
+                },
+                "S002[Pype]": {
+                    "S002_01[#8]": 0
+                }
+            }
+        },
+        "deliveries[Folder]": {
+            "fromClient[Folder]": {},
+            "toClient[Folder]": {}
+        },
+        "daily[Folder]": {}
+    }
+}

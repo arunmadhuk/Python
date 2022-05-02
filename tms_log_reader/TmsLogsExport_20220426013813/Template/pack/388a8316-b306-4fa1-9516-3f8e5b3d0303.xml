@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GDC>
+ <Template>
+  <name>International Advertisement pack (default)</name>
+  <uuid>388a8316-b306-4fa1-9516-3f8e5b3d0303</uuid>
+  <type>2</type>
+  <kind>12</kind>
+  <CreationDate>2015-02-25T01:00:00</CreationDate>
+  <LastModifiedDate>2015-02-25T01:00:00</LastModifiedDate>
+  <Creator>Template System</Creator>
+  <CreatorID>TMS:a0602173-da21-43f1-865c-c49a29d28b37</CreatorID>
+  <ComplexName>TMS</ComplexName>
+  <DataList/>
+  <rules>
+   <rule>
+    <id>20481</id>
+    <param>
+     <simple>c2cad987-cd95-4719-ba2e-c4a003d33da5</simple>
+    </param>
+   </rule>
+  </rules>
+ </Template>
+</GDC>

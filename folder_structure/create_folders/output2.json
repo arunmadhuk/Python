@@ -1,0 +1,67 @@
+{
+    "{ROOT}": {
+        "production": {
+            "planning": {},
+            "milestones": {}
+        },
+        "data": {
+            "some_data": {},
+            "assets": {
+                "asset": {
+                    "prop": {
+                        "something": {
+                            "asset2": "#2"
+                        },
+                        "something_else": {
+                            "Prop": {}
+                        }
+                    },
+                    "env": {
+                        "something": {},
+                        "something_else": {}
+                    },
+                    "char": {
+                        "something": {
+                            "fafa": "#1",
+                            "toto": "#1"
+                        },
+                        "something_else": {
+                            "Character": {}
+                        }
+                    }
+                },
+                "group": {
+                    "scene": {
+                        "something": {},
+                        "something_else": {}
+                    },
+                    "assembly": {
+                        "something": {},
+                        "something_else": {}
+                    }
+                },
+                "random": {
+                    "other_random": {
+                        "asset2": {},
+                        "fafa": {},
+                        "toto": {}
+                    }
+                }
+            },
+            "shots": {
+                "S001": {
+                    "S001_01": "#6",
+                    "S001_02": "#7"
+                },
+                "S002": {
+                    "S002_01": "#8"
+                }
+            }
+        },
+        "deliveries": {
+            "fromClient": {},
+            "toClient": {}
+        },
+        "daily": {}
+    }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GDC>
+ <Template>
+  <name>Trailer pack (default)</name>
+  <uuid>0f334f64-416b-4c60-86ad-2c6ccc4d93ca</uuid>
+  <type>2</type>
+  <kind>12</kind>
+  <CreationDate>2015-02-25T01:00:00</CreationDate>
+  <LastModifiedDate>2015-02-25T01:00:00</LastModifiedDate>
+  <Creator>Template System</Creator>
+  <CreatorID>TMS:a0602173-da21-43f1-865c-c49a29d28b37</CreatorID>
+  <ComplexName>TMS</ComplexName>
+  <DataList/>
+  <rules>
+   <rule>
+    <id>20481</id>
+    <param>
+     <simple>a38bfafc-7391-4d17-8503-2d59ee1f1378</simple>
+    </param>
+   </rule>
+  </rules>
+ </Template>
+</GDC>

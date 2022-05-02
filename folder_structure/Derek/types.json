@@ -1,0 +1,45 @@
+{
+    ASSET: {
+        1: {
+            C: char
+        },
+        2: {
+            C: prop
+        },
+        3: {
+            C: env
+        },
+        4: {
+            C: assembly
+        },
+        5: {
+            C: scene
+        }
+    },
+    SHOT: {
+        6: {
+            D: full_cg
+        }
+        7: {
+            D: fx
+        }
+        8: {
+            D: anim
+        }
+    },
+    DOCUMENT: {
+        9: {
+            A: test1,
+            B: test2
+        }
+    }
+}
+
+
+
+
+
+
+
+
+

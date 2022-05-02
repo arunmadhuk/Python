@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GDC>
+ <Template>
+  <name>Feature pack (default)</name>
+  <uuid>9939a551-2279-4ed0-ba1a-e9daea426ddd</uuid>
+  <type>2</type>
+  <kind>4</kind>
+  <CreationDate>2015-02-25T01:00:00</CreationDate>
+  <LastModifiedDate>2015-02-25T01:00:00</LastModifiedDate>
+  <Creator>Template System</Creator>
+  <CreatorID>TMS:a0602173-da21-43f1-865c-c49a29d28b37</CreatorID>
+  <ComplexName>TMS</ComplexName>
+  <DataList/>
+  <rules>
+   <rule>
+    <id>20481</id>
+    <param>
+     <simple>96c59597-002f-4062-9636-8801690b93d8</simple>
+    </param>
+   </rule>
+  </rules>
+ </Template>
+</GDC>

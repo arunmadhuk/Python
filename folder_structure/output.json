@@ -1,0 +1,33 @@
+{
+    "{ROOT}": {
+        "production": {
+            "planning": {},
+            "milestones": {}
+        },
+        "data": {
+            "assets": {
+                "char": {
+                    "toto": {},
+                    "fafa": {}
+                },
+                "prop": {
+                    "asset2": {}
+                }
+            }
+        },
+        "shots": {
+            "S001": {
+                "S001_01": {},
+                "S001_02": {}
+            },
+            "S002": {
+                "S002_01": {}
+            }
+        },
+        "deliveries": {
+            "fromClient": {},
+            "toClient": {}
+        },
+        "daily": {}
+    }
+}
