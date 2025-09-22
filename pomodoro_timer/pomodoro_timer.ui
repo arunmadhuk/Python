@@ -36,7 +36,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>pomodoro-technique.png</normaloff>pomodoro-technique.png</iconset>
+    <normaloff>../../Python/pomodoro_timer/pomodoro-technique.png</normaloff>../../Python/pomodoro_timer/pomodoro-technique.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="verticalLayoutWidget">
@@ -190,7 +190,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QLCDNumber" name="lcd_timer">
+        <widget class="QLCDNumber" name="lcd_min_timer">
          <property name="minimumSize">
           <size>
            <width>75</width>
@@ -217,6 +217,41 @@
          </property>
          <property name="intValue" stdset="0">
           <number>25</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLCDNumber" name="lcd_sec_timer">
+         <property name="minimumSize">
+          <size>
+           <width>75</width>
+           <height>75</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>75</width>
+           <height>75</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>26</pointsize>
+           <italic>true</italic>
+          </font>
+         </property>
+         <property name="smallDecimalPoint">
+          <bool>false</bool>
+         </property>
+         <property name="digitCount">
+          <number>2</number>
          </property>
         </widget>
        </item>
