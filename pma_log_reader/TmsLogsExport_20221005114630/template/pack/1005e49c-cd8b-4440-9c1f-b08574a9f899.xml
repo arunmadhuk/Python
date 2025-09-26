@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GDC>
+ <Template>
+  <name>Local Advertisement pack (default)</name>
+  <uuid>1005e49c-cd8b-4440-9c1f-b08574a9f899</uuid>
+  <type>2</type>
+  <kind>12</kind>
+  <CreationDate>2015-02-25T01:00:00</CreationDate>
+  <LastModifiedDate>2015-02-25T01:00:00</LastModifiedDate>
+  <Creator>Template System</Creator>
+  <CreatorID>TMS:a0602173-da21-43f1-865c-c49a29d28b37</CreatorID>
+  <ComplexName>TMS</ComplexName>
+  <DataList/>
+  <rules>
+   <rule>
+    <id>20481</id>
+    <param>
+     <simple>5f52deea-aac8-414c-a7c7-96e6feb15530</simple>
+    </param>
+   </rule>
+  </rules>
+ </Template>
+</GDC>

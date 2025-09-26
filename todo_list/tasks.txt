@@ -1,0 +1,5 @@
+task-01||mithran||Buy toys||High||12-10-2025||pending
+task-02||sangamithran||buy fish sticker||Low||12-10-2025||pending
+task-03||akil mithran||buy snacks||High||No deadline||done
+task-04||sa||buy sweets||High||13-10-2025||pending
+task-05||mithran||plan japan trip||High||No deadline||pending

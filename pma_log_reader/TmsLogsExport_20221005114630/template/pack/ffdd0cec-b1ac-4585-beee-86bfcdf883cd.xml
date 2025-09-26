@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GDC>
+ <Template>
+  <name>Intermission content pack (default)</name>
+  <uuid>ffdd0cec-b1ac-4585-beee-86bfcdf883cd</uuid>
+  <type>2</type>
+  <kind>12</kind>
+  <CreationDate>2015-02-25T01:00:00</CreationDate>
+  <LastModifiedDate>2015-02-25T01:00:00</LastModifiedDate>
+  <Creator>Template System</Creator>
+  <CreatorID>TMS:a0602173-da21-43f1-865c-c49a29d28b37</CreatorID>
+  <ComplexName>TMS</ComplexName>
+  <DataList/>
+  <rules>
+   <rule>
+    <id>20481</id>
+    <param>
+     <simple>713770b2-6ea5-4a1d-8086-d0bb3d26ce8a</simple>
+    </param>
+   </rule>
+  </rules>
+ </Template>
+</GDC>

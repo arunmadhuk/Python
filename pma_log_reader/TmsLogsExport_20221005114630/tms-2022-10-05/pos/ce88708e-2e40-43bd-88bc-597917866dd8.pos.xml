@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Movies version="1.1">
+  <All_Titles>
+    <Movie>
+      <ID>1000000367</ID>
+      <Title>Air Force The Movie: Selagi Bernyawa</Title>
+      <Rating>P13</Rating>
+    </Movie>
+    <Movie>
+      <ID>1000000409</ID>
+      <Title>One Piece Film Red</Title>
+      <Rating>P13</Rating>
+    </Movie>
+    <Movie>
+      <ID>1000000432</ID>
+      <Title>Abang Long Fadil 3</Title>
+      <Rating>P13</Rating>
+    </Movie>
+    <Movie>
+      <ID>1000000465</ID>
+      <Title>The Invitation</Title>
+      <Rating>P13</Rating>
+    </Movie>
+    <Movie>
+      <ID>1000000479</ID>
+      <Title>Ponniyin Selvan Part - 1 (Tamil)</Title>
+      <Rating>P13</Rating>
+    </Movie>
+    <Movie>
+      <ID>1000000504</ID>
+      <Title>Rasuk</Title>
+      <Rating>P13</Rating>
+    </Movie>
+    <Movie>
+      <ID>1000000509</ID>
+      <Title>Smile</Title>
+      <Rating>18</Rating>
+    </Movie>
+    <Movie>
+      <ID>1000000518</ID>
+      <Title>Leio</Title>
+      <Rating>P13</Rating>
+    </Movie>
+    <Movie>
+      <ID>1000000537</ID>
+      <Title>Shin Ultraman</Title>
+      <Rating>P13</Rating>
+    </Movie>
+    <Movie>
+      <ID>1000000538</ID>
+      <Title>Love Destiny The Movie</Title>
+      <Rating>P13</Rating>
+    </Movie>
+  </All_Titles>
+  <Hall code="1">
+    <Show>
+      <ID>1000000509</ID>
+      <Title>Smile</Title>
+      <Date_Time>2022-10-05T10:30:00+08:00</Date_Time>
+      <Tickets_Sold>2</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>1</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000509</ID>
+      <Title>Smile</Title>
+      <Date_Time>2022-10-05T12:55:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000518</ID>
+      <Title>Leio</Title>
+      <Date_Time>2022-10-05T15:20:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000509</ID>
+      <Title>Smile</Title>
+      <Date_Time>2022-10-05T17:40:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000509</ID>
+      <Title>Smile</Title>
+      <Date_Time>2022-10-05T20:05:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000518</ID>
+      <Title>Leio</Title>
+      <Date_Time>2022-10-05T22:25:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+  </Hall>
+  <Hall code="2">
+    <Show>
+      <ID>1000000409</ID>
+      <Title>One Piece Film Red</Title>
+      <Date_Time>2022-10-05T11:15:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000409</ID>
+      <Title>One Piece Film Red</Title>
+      <Date_Time>2022-10-05T13:45:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000409</ID>
+      <Title>One Piece Film Red</Title>
+      <Date_Time>2022-10-05T16:15:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000409</ID>
+      <Title>One Piece Film Red</Title>
+      <Date_Time>2022-10-05T18:45:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000409</ID>
+      <Title>One Piece Film Red</Title>
+      <Date_Time>2022-10-05T21:15:00+08:00</Date_Time>
+      <Tickets_Sold>2</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>1</Is_Ticket_Sold>
+    </Show>
+  </Hall>
+  <Hall code="3">
+    <Show>
+      <ID>1000000465</ID>
+      <Title>The Invitation</Title>
+      <Date_Time>2022-10-05T11:00:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000367</ID>
+      <Title>Air Force The Movie: Selagi Bernyawa</Title>
+      <Date_Time>2022-10-05T13:15:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000504</ID>
+      <Title>Rasuk</Title>
+      <Date_Time>2022-10-05T15:30:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000432</ID>
+      <Title>Abang Long Fadil 3</Title>
+      <Date_Time>2022-10-05T17:35:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000504</ID>
+      <Title>Rasuk</Title>
+      <Date_Time>2022-10-05T20:00:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000538</ID>
+      <Title>Love Destiny The Movie</Title>
+      <Date_Time>2022-10-05T22:05:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+  </Hall>
+  <Hall code="4">
+    <Show>
+      <ID>1000000479</ID>
+      <Title>Ponniyin Selvan Part - 1 (Tamil)</Title>
+      <Date_Time>2022-10-05T11:30:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000479</ID>
+      <Title>Ponniyin Selvan Part - 1 (Tamil)</Title>
+      <Date_Time>2022-10-05T14:50:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000479</ID>
+      <Title>Ponniyin Selvan Part - 1 (Tamil)</Title>
+      <Date_Time>2022-10-05T18:10:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000479</ID>
+      <Title>Ponniyin Selvan Part - 1 (Tamil)</Title>
+      <Date_Time>2022-10-05T21:30:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+  </Hall>
+  <Hall code="5">
+    <Show>
+      <ID>1000000479</ID>
+      <Title>Ponniyin Selvan Part - 1 (Tamil)</Title>
+      <Date_Time>2022-10-05T10:30:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000479</ID>
+      <Title>Ponniyin Selvan Part - 1 (Tamil)</Title>
+      <Date_Time>2022-10-05T13:50:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000479</ID>
+      <Title>Ponniyin Selvan Part - 1 (Tamil)</Title>
+      <Date_Time>2022-10-05T17:10:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+  </Hall>
+  <Hall code="6">
+    <Show>
+      <ID>1000000432</ID>
+      <Title>Abang Long Fadil 3</Title>
+      <Date_Time>2022-10-05T11:55:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000432</ID>
+      <Title>Abang Long Fadil 3</Title>
+      <Date_Time>2022-10-05T14:30:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000432</ID>
+      <Title>Abang Long Fadil 3</Title>
+      <Date_Time>2022-10-05T17:00:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+  </Hall>
+  <Hall code="7">
+    <Show>
+      <ID>1000000479</ID>
+      <Title>Ponniyin Selvan Part - 1 (Tamil)</Title>
+      <Date_Time>2022-10-05T11:00:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000509</ID>
+      <Title>Smile</Title>
+      <Date_Time>2022-10-05T14:20:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000409</ID>
+      <Title>One Piece Film Red</Title>
+      <Date_Time>2022-10-05T16:50:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+  </Hall>
+  <Hall code="8">
+    <Show>
+      <ID>1000000367</ID>
+      <Title>Air Force The Movie: Selagi Bernyawa</Title>
+      <Date_Time>2022-10-05T11:00:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000432</ID>
+      <Title>Abang Long Fadil 3</Title>
+      <Date_Time>2022-10-05T13:30:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000367</ID>
+      <Title>Air Force The Movie: Selagi Bernyawa</Title>
+      <Date_Time>2022-10-05T16:05:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+    <Show>
+      <ID>1000000537</ID>
+      <Title>Shin Ultraman</Title>
+      <Date_Time>2022-10-05T18:30:00+08:00</Date_Time>
+      <Tickets_Sold>0</Tickets_Sold>
+      <FilmFormat>2D</FilmFormat>
+      <Is_Ticket_Sold>0</Is_Ticket_Sold>
+    </Show>
+  </Hall>
+</Movies>
